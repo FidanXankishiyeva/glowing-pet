@@ -51,6 +51,7 @@
 .container #home-page {
   width: 100%;
   padding: 0 96px 227px 0;
+  padding-left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,11 +61,12 @@
   margin-right: 61px;
 }
 .container #home-page .left-box .position-box-1 {
+  width: 415px;
   padding: 22px 41px 15px 24px;
   display: flex;
   position: absolute;
   bottom: 448px;
-  left: 373px;
+  right: 0;
   border-radius: 29px;
   background: #fff;
   box-shadow: 0px 3.506px 4.758px 0px rgba(29, 27, 19, 0.05), 0px 28px 38px 0px rgba(29, 27, 19, 0.09);
@@ -94,7 +96,7 @@
   display: flex;
   position: absolute;
   left: 54px;
-  top: 225px;
+  bottom: 225px;
   border-radius: 29px;
   background: #fff;
   box-shadow: 0px 3.506px 4.758px 0px rgba(29, 27, 19, 0.05), 0px 28px 38px 0px rgba(29, 27, 19, 0.09);
@@ -383,6 +385,62 @@
   background: #FFDC26;
   box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04);
   color: #000;
+  font-family: "Nanum Gothic";
+  font-size: 45.167px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #menu-page {
+  width: 100%;
+  padding: 45px 270px 150px 73px;
+  background: #FFDC26;
+  display: flex;
+  justify-content: space-between;
+}
+.container #menu-page .left-box .title-box {
+  display: flex;
+}
+.container #menu-page .left-box .title-box h1 {
+  color: #141413;
+  font-family: Bubblegum Sans;
+  font-size: 80.716px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #menu-page .left-box .title-box h1 span {
+  color: #FFF;
+  font-family: Bubblegum Sans;
+  font-size: 80.716px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #menu-page .left-box .logo-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container #menu-page .right-box ul {
+  display: flex;
+}
+.container #menu-page .right-box ul li {
+  margin-right: 154px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container #menu-page .right-box ul li h2 {
+  margin-bottom: 24px;
+  color: #000;
+  font-family: Bubblegum Sans;
+  font-size: 57.773px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container #menu-page .right-box ul li a {
+  color: #FFF;
   font-family: "Nanum Gothic";
   font-size: 45.167px;
   font-style: normal;
